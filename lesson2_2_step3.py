@@ -23,6 +23,8 @@ try:
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
 
+    # новый коммит 3
+
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
     time.sleep(5)
